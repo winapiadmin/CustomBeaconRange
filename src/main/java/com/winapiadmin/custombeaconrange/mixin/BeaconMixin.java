@@ -55,5 +55,7 @@ public class BeaconMixin {
                 playerEntity.addStatusEffect(new StatusEffectInstance(secondaryEffect, j, 0, true, true));
             }
         }
+        return;
     }
 }
+
